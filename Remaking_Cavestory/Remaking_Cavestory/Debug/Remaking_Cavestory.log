@@ -1,8 +1,2 @@
-﻿  main.cpp
-  input.cpp
-  graphics.cpp
-  game.cpp
-c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\game.cpp(66): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
-  Generating Code...
-  Remaking_Cavestory.vcxproj -> C:\Users\Jordan\Documents\Visual Studio 2015\Projects\Cavestory\Remaking_Cavestory\Debug\Remaking_Cavestory.exe
+﻿  Remaking_Cavestory.vcxproj -> C:\Users\Jordan\Documents\Visual Studio 2015\Projects\Cavestory\Remaking_Cavestory\Debug\Remaking_Cavestory.exe
   Remaking_Cavestory.vcxproj -> C:\Users\Jordan\Documents\Visual Studio 2015\Projects\Cavestory\Remaking_Cavestory\Debug\Remaking_Cavestory.pdb (Partial PDB)
