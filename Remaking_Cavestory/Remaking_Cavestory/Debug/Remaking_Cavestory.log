@@ -1,2 +1,5 @@
-﻿  Remaking_Cavestory.vcxproj -> C:\Users\Jordan\Documents\Visual Studio 2015\Projects\Cavestory\Remaking_Cavestory\Debug\Remaking_Cavestory.exe
+﻿  game.cpp
+c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\game.cpp(70): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\game.cpp(88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Remaking_Cavestory.vcxproj -> C:\Users\Jordan\Documents\Visual Studio 2015\Projects\Cavestory\Remaking_Cavestory\Debug\Remaking_Cavestory.exe
   Remaking_Cavestory.vcxproj -> C:\Users\Jordan\Documents\Visual Studio 2015\Projects\Cavestory\Remaking_Cavestory\Debug\Remaking_Cavestory.pdb (Partial PDB)
