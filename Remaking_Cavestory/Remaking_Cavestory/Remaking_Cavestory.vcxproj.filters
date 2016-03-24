@@ -19,6 +19,9 @@
     <Filter Include="Content\Sprites">
       <UniqueIdentifier>{1e18430e-1062-47bf-9bfc-97ced81948b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Content\Backgrounds">
+      <UniqueIdentifier>{13be658f-8870-4962-a735-c9bbad8a8b5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -40,6 +43,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,10 +71,16 @@
     <ClInclude Include="player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Content\Sprites\MyChar.png">
       <Filter>Content\Sprites</Filter>
+    </Image>
+    <Image Include="Content\Backgrounds\bkBlue.png">
+      <Filter>Content\Backgrounds</Filter>
     </Image>
   </ItemGroup>
 </Project>
