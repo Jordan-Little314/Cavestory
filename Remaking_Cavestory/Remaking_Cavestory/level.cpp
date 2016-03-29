@@ -1,5 +1,6 @@
 #include "level.h"
 #include "graphics.h"
+#include "gloabals.h"
 #include <SDL/SDL.h>
 
 Level::Level() {}
@@ -39,10 +40,10 @@ void Level::draw(Graphics &graphics)
 	{
 		for (int y = 0; y < this->_size.y / 64; y++)
 		{
-			destRect.x = x * 64;
-			destRect.y = y * 64;
-			destRect.w = 64;
-			destRect.h = 64;
+			destRect.x = x * 64 * gloabals::SPRITE_SCALE;
+			destRect.y = y * 64 * gloabals::SPRITE_SCALE;
+			destRect.w = 64 * gloabals::SPRITE_SCALE;
+			destRect.h = 64 * gloabals::SPRITE_SCALE;
 			graphics.blitSurface(this->_backgroundTexture, &sourceRect, &destRect);
 		}
 	}

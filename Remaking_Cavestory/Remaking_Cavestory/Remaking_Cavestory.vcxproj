@@ -125,6 +125,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="sprite.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animatedSprite.h" />
@@ -135,10 +136,15 @@
     <ClInclude Include="level.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="sprite.h" />
+    <ClInclude Include="tinyxml2.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Content\Backgrounds\bkBlue.png" />
     <Image Include="Content\Sprites\MyChar.png" />
+    <Image Include="Content\Tilesets\PrtCave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Maps\Map 1.tmx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

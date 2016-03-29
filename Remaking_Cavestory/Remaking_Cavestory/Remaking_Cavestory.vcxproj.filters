@@ -22,6 +22,12 @@
     <Filter Include="Content\Backgrounds">
       <UniqueIdentifier>{13be658f-8870-4962-a735-c9bbad8a8b5e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Content\Tilesets">
+      <UniqueIdentifier>{a785f0c4-d317-45c0-be08-f08bab9355e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Maps">
+      <UniqueIdentifier>{b0bd45ec-b693-4e13-a91a-80fcb2248fa1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -46,6 +52,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,6 +83,9 @@
     <ClInclude Include="level.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Content\Sprites\MyChar.png">
@@ -82,5 +94,13 @@
     <Image Include="Content\Backgrounds\bkBlue.png">
       <Filter>Content\Backgrounds</Filter>
     </Image>
+    <Image Include="Content\Tilesets\PrtCave.png">
+      <Filter>Content\Tilesets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Maps\Map 1.tmx">
+      <Filter>Content\Maps</Filter>
+    </None>
   </ItemGroup>
 </Project>
