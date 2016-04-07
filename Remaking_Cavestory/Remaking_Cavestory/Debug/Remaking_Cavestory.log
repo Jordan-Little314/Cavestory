@@ -1,7 +1,6 @@
 ﻿  level.cpp
-c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\level.cpp(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\level.cpp(44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\level.cpp(45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\level.cpp(46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\level.cpp(105): warning C4018: '<': signed/unsigned mismatch
+c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\level.cpp(60): warning C4101: 'path': unreferenced local variable
+c:\users\jordan\documents\visual studio 2015\projects\cavestory\remaking_cavestory\remaking_cavestory\level.cpp(171): warning C4018: '<': signed/unsigned mismatch
   Remaking_Cavestory.vcxproj -> C:\Users\Jordan\Documents\Visual Studio 2015\Projects\Cavestory\Remaking_Cavestory\Debug\Remaking_Cavestory.exe
   Remaking_Cavestory.vcxproj -> C:\Users\Jordan\Documents\Visual Studio 2015\Projects\Cavestory\Remaking_Cavestory\Debug\Remaking_Cavestory.pdb (Partial PDB)
